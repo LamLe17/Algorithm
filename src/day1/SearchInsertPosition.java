@@ -7,7 +7,7 @@ public class SearchInsertPosition {
         int target = 5;
         int result = searchInsert(nums, target);
     }
-    //So sánh mid của mảng, điều chỉnh để mid gần với target
+    //So sánh mid của mảng, điều chỉnh để mid = target
     public static int searchInsert(int[] nums, int target) {
         int n = nums.length;
         int lower = 0;
